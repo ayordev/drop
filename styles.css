@@ -1,0 +1,150 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  width: 100%;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  gap: 15rem;
+  align-items: center;
+}
+
+.nav-buttons {
+  display: grid;
+  border-right: 1px solid rgb(144, 139, 139);
+  padding-right: 5rem;
+  text-transform: uppercase;
+  list-style-type: none;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.button {
+  padding: 8px 7px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.action-wrapper {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  background-color: purple;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 0.8rem 1.5rem;
+  width: 9rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.drop-box {
+  display: grid;
+  visibility: hidden;
+  align-items: center;
+  background-color: rgb(199, 28, 171);
+  color: #fff;
+  padding: 20px 0;
+  font-weight: 600;
+  border-radius: 4px;
+  gap: 20px;
+  list-style-type: none;
+  text-transform: capitalize;
+  width: 10rem;
+}
+
+.drop-box li {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.drop-box li:last-child {
+  border-top: 1px solid rgb(139, 135, 135);
+  padding-top: 10px;
+}
+
+.color {
+  margin: 0 5px;
+  padding: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dimgrey {
+  background-color: dimgrey;
+}
+
+.darkgrey {
+  background-color: darkgrey;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.green {
+  background-color: green;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+
+.burlywood {
+  background-color: burlywood;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.fuchsia {
+  background-color: fuchsia;
+}
